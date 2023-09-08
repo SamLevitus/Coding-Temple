@@ -1,0 +1,39 @@
+---
+title: "r_prework"
+output: html_document
+date: "2023-09-08"
+---
+
+```{r}
+x <- 1
+y <- 2
+z <- 3
+
+x + y
+y - z
+x * z
+z / x
+y %/% x
+x %% z
+```
+
+```{r}
+first_name <- 'Sam'
+last_name <- 'Levitus'
+full_name <- paste(first_name, last_name, sep=' ')
+print(full_name)
+print(paste("My name is: ", full_name))
+```
+
+```{r}
+one <- c(1,2,3,4,5,6)
+two <- c(4,5,6,7,8,9)
+multi_vect <- one * two
+multi_vect
+multi_vect[3:6]
+```
+
+```{r}
+my_first_sequence <- rep(10, times = 10)
+my_first_sequence
+```
